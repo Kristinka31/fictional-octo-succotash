@@ -1,0 +1,169 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #3b5998;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    gap: 25px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.call-btn {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.call-btn:hover {
+    background-color: #ff4500;
+}
+
+/* Слайдер */
+.slider {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.slider-item {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px; 
+    position: relative; 
+    display: none; 
+}
+
+.slider-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.slider-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Отображаем первый слайд */
+.slider-item:first-child {
+    display: block;
+}
+
+/* Секция с работниками */
+.staff {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.staff-grid {
+    justify-content: space-between;
+    display: flex;
+}
+
+.staff-member {
+    text-align: center;
+}
+
+.staff-member img {
+    width: 220px;
+    border-radius: 5%;
+    margin-bottom: 15px;
+}
+
+/* Секция с животными */
+.animal-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.animal-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    text-align: center;
+}
+
+.animal-card img {
+    border-radius: 10px;
+    width: 285px;
+}
+
+/* Отзывы */
+.reviews {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.reviews-slider {
+    display: flex;
+    gap: 20px;
+    overflow: auto;
+}
+
+.review-pair {
+    min-width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact{
+    margin-bottom: 50px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
